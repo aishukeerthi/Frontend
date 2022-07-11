@@ -14,7 +14,7 @@ const routes: Routes = [
   {
     path: 'todo-list',
     component: TodoListComponent,
-    canActivate: [UserGuard],
+    //canActivate: [UserGuard],
   },
   {
     path: 'todo-list/display/:start',
